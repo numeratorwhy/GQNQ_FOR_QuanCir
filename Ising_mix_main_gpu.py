@@ -11,7 +11,7 @@ from Ising_mix_dataset import StateMeasurementResultData
 from Ising_mix_dataset import TestStateMeasurementResultData
 
 # Data
-test_flag = 1
+test_flag = 0
 num_bits = 5
 split_ratio = 0.9
 num_observables = 242
