@@ -14,7 +14,7 @@ from Ising_mix_dataset import TestStateMeasurementResultData
 test_flag = 0
 num_bits = 5
 split_ratio = 0.9
-num_observables = 242
+num_observables = 243
 train_ds = StateMeasurementResultData(num_observables)
 test_ds = TestStateMeasurementResultData(num_observables)
 torch.manual_seed(42)
