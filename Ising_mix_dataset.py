@@ -12,6 +12,7 @@ class StateMeasurementResultData(Dataset):
         for i in range(0,num_observables):
             tmp = np.load('/home/haoyu/5qubit/float_observable5_'+str(i)+'.npy')
             observables.append(np.array(tmp))
+        self.observables = np.array(observables)
         values = []
         for k in range(0,9):    
             base_path = '/home/haoyu/Data6/qubits=5/layers=30/t_gate=' + str(k)
